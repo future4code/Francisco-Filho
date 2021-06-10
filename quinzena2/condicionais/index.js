@@ -69,3 +69,43 @@ const ingresso = Number(prompt('Qual o valorp para torrar ?'))
         console.log('Escolha outro ')
     }
 */
+
+
+const nome = prompt('Qual seu nome ?')
+const tipoJogo = prompt('Qual o tipo de jogo, IN ou DO ?')
+const etapaJogo = prompt('Qual sua etapa do Jogo,SF, DT, FI ? ')
+const categoria = Number(prompt('Qual a categoria de 1 a 4 ?'))
+const quantidade = Number(prompt('Vai querer quantos ingressos? '))
+
+
+function valorIngresso(tipoJogo, etapaJogo, categoria, quantidade) {
+    
+
+
+
+}
+
+
+
+
+
+
+
+console.log("Nome do Cliente : ", nome)
+console.log("Tipo de Jogo: ", tipoJogo)
+console.log("Etapa do Jogo: ", etapaJogo)
+console.log("Categoria do Jogo: ", categoria)
+console.log("Quantidades de ingressos ", quantidade)
+console.log("Valor do ingresso", resultValor)
+console.log("Valor Total", RESULTADOTOTAL)
+
+
+
+/*Nome do cliente:  
+Tipo do jogo:   
+Etapa do jogo:  
+Categoria:  
+Quantidade de Ingressos:  
+---Valores--- 
+Valor do ingresso:  
+Valor total:  */
