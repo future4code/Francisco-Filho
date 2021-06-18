@@ -126,21 +126,37 @@ function criaRetangulo(lado1, lado2) {
 
 // EXERCÍCIO 15
 function anonimizaPessoa(pessoa) {
+  const pessoaAnonima = {
+  ...pessoa,
+  nome: "ANÔNIMO"	
+  }
+return pessoaAnonima
 
 }
 
 // EXERCÍCIO 16A
 function maioresDe18(arrayDePessoas) {
-
+  const maior18 = arrayDePessoas.filter((maior) => {
+    return maior.idade >= 18
+  })
+  return maior18
 }
 
 // EXERCÍCIO 16B
 function menoresDe18(arrayDePessoas) {
-
+  const menor18 = arrayDePessoas.filter((menor) => {
+    return menor.idade <= 18
+  })
+  return menor18
 }
 
 // EXERCÍCIO 17A
 function multiplicaArrayPor2(array) {
+
+  for(let valor of array){
+    return valor * 2
+  }
+
 
 }
 
