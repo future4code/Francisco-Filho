@@ -1,0 +1,37 @@
+
+.head  { 
+    background-color: #A3BAC3;
+    border: 1px solid black;
+   
+} 
+
+.footer {
+  
+   
+  
+   
+    background-color: #006989;  
+    position:absolute;
+    bottom:0;
+    width:100%;
+
+}
+
+
+img {
+   
+    border-radius: 4px;
+    padding: 5px;
+    width: 20px;
+   
+}
+.link {
+    padding: 5px;
+    border: 1px solid black;     
+    display: flex;  
+    justify-content: center;
+   
+}
+
+/* xxxxxxxxxx cccccccccccccc*/
+
