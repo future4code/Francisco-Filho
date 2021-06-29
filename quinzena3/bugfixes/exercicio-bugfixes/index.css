@@ -115,7 +115,13 @@ div:last-child {
 table {
     width: 60%;
     text-align: center;
+    
 }
+ .imagem img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+} 
 
 td button {
     background-color: #fadf63;
