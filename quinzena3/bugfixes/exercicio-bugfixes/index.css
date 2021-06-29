@@ -134,7 +134,20 @@ td button {
     border-radius: 5px;
     color: black;
 }
-
+td button:hover {
+    background-color: #504619;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+   
+}
+td button:active {
+    background-color: #fadf63;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+}
 .container-do-search {
     margin-top: 20px;
     height: 100px;
