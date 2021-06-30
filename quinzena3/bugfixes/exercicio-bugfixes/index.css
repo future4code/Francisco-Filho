@@ -34,7 +34,7 @@ div>p:first-child {
 }
 
 div img {
-    background: black;
+    /* background: black; */
 }
 
 .botao-amarelo {
@@ -120,6 +120,7 @@ table {
     width: 60%;
     text-align: center;
    margin: auto;
+   
     
 }
  .imagem img {
@@ -173,8 +174,13 @@ input {
     border-radius: 5px;
     font-size: 10px;
     color: black;
+   
 }
 
 #back-button:hover {
     background-color: #635a3d
+}
+.botao-compra-volta {
+   text-align: center;
+   margin-top: 100px;
 }
