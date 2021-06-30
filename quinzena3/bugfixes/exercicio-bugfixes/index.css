@@ -82,8 +82,9 @@ div img {
 
 #container-de-descricao>ol {
     padding: 15px 0px;
-
+ 
 }
+
 #container-de-descricao>p {
     padding: 15px 0px;
     white-space: pre;
@@ -131,7 +132,11 @@ table {
     height: 50px;
     object-fit: contain;
 } 
-
+img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+} 
 td button {
     background-color: #fadf63;
     width: 150px;
