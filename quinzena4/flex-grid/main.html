@@ -1,88 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Flexbox</title>
 </head>
 <body>
     <div class="page-container">
-        <header>
-            <div class="head-container">
-                <img id="iconebolo" src="img\iconebolo.png" alt="logo-confeitaria">
-                <h1> Confeitaria </h1>
-            </div>
-            <button>Login</button>
-        </header>
-
-        <main class="maingeral">
-            
-            <div class="main-lateral">
-
-               <nav div="sec-direita">
-               
-
-                <div class="grid-template-columns">
-                <img src="img\iconecasa.png" alt="logo-confeitaria"><p> Home</p><img src="img\setadireita.png" alt="logo-confeitaria"></div>            
-                
-                <div class="grid-template-columns">
-                <img src="img\iconecasa.png" alt="logo-confeitaria"><p> Produtos</p><img src="img\setadireita.png" alt="logo-confeitaria"></div>
-
-                <div class="grid-template-columns">
-                <img src="img\iconecasa.png" alt="logo-confeitaria"><p> carrinho </p><img src="img\setadireita.png" alt="logo-confeitaria"></div> 
-
-                <div class="grid-template-columns">
-                <img src="img\iconecasa.png" alt="logo-confeitaria"><p> Perfil</p><img src="img\setadireita.png" alt="logo-confeitaria"></div>            
-            </nav>
-            
-              </div>
-
-
-                
-              
-
-            <section class="sec-bolos">
-                
-                <div class="grid-bolos">
-                <img src="../flex-grid/img/fotodobolo.jpg"><p>texto</p></div>
-
-                <div class="grid-bolos">
-                <img src="../flex-grid/img/fotodobolo.jpg" alt="logo-confeitaria"><p>texto</p></div>
-
-                <div class="grid-bolos">
-                <img src="../flex-grid/img/fotodobolo.jpg" alt="logo-confeitaria"><p>texto</p></div>
-
-                <div class="grid-bolos">
-                <img src="../flex-grid/img/fotodobolo.jpg" alt="logo-confeitaria"><p>texto</p></div>
-
-                <div class="grid-bolos">
-                <img src="../flex-grid/img/fotodobolo.jpg" alt="logo-confeitaria"><p>texto</p></div>
-
-                <div class="grid-bolos">
-                <img src="../flex-grid/img/fotodobolo.jpg" alt="logo-confeitaria"><p>texto</p></div>
-
-                <div class="grid-bolos">
-                <img src="../flex-grid/img/fotodobolo.jpg" alt="logo-confeitaria"><p>texto</p></div>
-
-
-
-            </section>
-
-            </div>
-        </main>
-
-
-
-        <footer>
-            <p>venha para a confeitaria </p>
-           
-        </footer>
-
-
-
-
+    <header>
+        <div class="logocontainer">
+        <img src="img\iconebolo.png" alt="logo bolo">
+        <p>confeitaria</p>
     </div>
+        <button>login</button>
+    </header>
+
+    <main class="main-container">
+            <div id="menu">
+                <div class="giraitem">
+                <img src="img\iconecasa.png">
+                <p>home</p>
+                <img src="img\setadireita.png">
+                </div>
+
+                <div class="giraitem">
+                <img src="img\iconedoce.png">
+                <p>produtos</p>
+                <img src="img\setadireita.png">
+                </div>
+
+
+                <div class="giraitem">
+                <img src="img\iconecarrinho.png" > 
+                <p>carrinho</p>
+                <img src="img\setadireita.png">
+                </div>
+
+                <div class="giraitem">
+                <img src="img\iconeperfil.webp" > 
+                <p>perfil</p>
+                <img src="img\setadireita.png">
+                </div>      
+            </div>
+       
+
+                        
+            <div id="bolos"> 
+                <div class="bolos">
+
+                    <div class="bolosjanela">
+                    <img id="imgbolo" src="img\fotodobolo.jpg" alt="bolo">
+                    <h1> BOLOS</h1>
+                    <p>deliciosos bolos</p>
+                    </div>   
+                
+                
+
+                    <div class="bolosjanela">
+                    <img id="imgbolo"src="img\fotodobolo.jpg" alt="bolo">
+                    <h1> BOLOS</h1>
+                    <p>deliciosos bolos</p>
+                    </div>    
+
+
+                    <div class="bolosjanela">
+                    <img id="imgbolo" src="img\fotodobolo.jpg" alt="bolo">
+                    <h1> BOLOS</h1>
+                    <p>deliciosos bolos</p>
+                    </div>    
+
+                    <div class="bolosjanela">
+                    <img  id="imgbolo" src="img\fotodobolo.jpg" alt="bolo">
+                    <h1> BOLOS</h1>
+                    <p>deliciosos bolos</p>
+                    </div>    
+
+
+                    <div class="bolosjanela">
+                    <img  id="imgbolo" src="img\fotodobolo.jpg" alt="bolo">
+                    <h1> BOLOS</h1>
+                    <p>deliciosos bolos</p>
+                    </div>    
+
+                    <div class="bolosjanela">
+                    <img  id="imgbolo" src="img\fotodobolo.jpg" alt="bolo">
+                    <h1> BOLOS</h1>
+                    <p>deliciosos bolos</p>
+                    </div>    
+
+
+
+                    <div class="bolosjanela">
+                    <img  id="imgbolo" src="img\fotodobolo.jpg" alt="bolo">
+                    <h1> BOLOS</h1>
+                    <p>deliciosos bolos</p>
+                    </div>    
+            </div>
+
+            </div>     
+            
+    </main>
+<footer>
+
+
+<p> confeitaria</p>
+<p> confeitaria</p>
+<p> confeitaria</p>
+
+</footer>
+
+
+
+</div>
 </body>
 </html>
