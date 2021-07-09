@@ -1,0 +1,143 @@
+/* geral */
+
+
+* {
+    margin: 0;
+    padding: 0;
+   }
+
+.container-geral {
+   display: flex;
+   flex-direction: column;
+   height: 100vw;
+   flex-wrap: wrap;
+}
+
+
+
+
+
+/* Header */
+
+
+header {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   height: 5%;
+   width: 100%;
+   background-color: antiquewhite;
+}
+#divBusca{
+   background-color:#2F4F4F;
+   border:solid 1px;
+   border-radius:15px;
+   width:30%;
+ }
+ 
+ #txtBusca{
+   float:left;
+   background-color:transparent;
+   padding-left:5px;
+   font-style:italic;
+   font-size:18px;
+   border:none;
+   height:32px;
+   width:260px;
+ }
+
+ /* Body */
+.main-grid {
+   flex: 1;
+   display: grid;
+   grid-template-columns: repeat(4, auto);
+   grid-template-rows: repeat(4, auto);
+   justify-items: center;
+   align-items: center;
+   border: 2px black solid;
+  
+  
+
+}   
+.janela-videos {
+   border: 2px black solid;
+   display: flex;
+   flex-direction: column;
+   justify-items: center;
+   align-items: center;
+   height: 70%;
+   max-width: 80%;
+   justify-content: space-evenly;
+  
+   
+}
+ /* Footer */
+
+ footer {
+     height: 5%;
+    color: aqua;
+    background-color: black;
+  
+ }
+
+
+
+ /* Filhos */
+ .main-grid-filho {
+     display: flex;
+     height: 100%;
+     justify-items: top;
+     align-items: center;
+     justify-content: center;
+ }
+ .janela-videos-grande {
+   /* border: 2px black solid; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+
+ }
+ @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+   /* celulares */
+
+   .main-grid {
+  display: flex;
+  flex-direction: column;
+   }   
+
+   .container-geral {
+      display: flex;
+      flex-direction: column;
+      height: 100vw;
+      flex-wrap: nowrap;
+   }
+   
+
+   header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      height: 10%;
+      width: 100%;
+      background-color: antiquewhite;
+   }
+
+   footer {
+      height: 100vw;
+     color: aqua;
+     background-color: black;
+      font-size: 10px;
+  }
+
+
+   }
+   @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+   /* tablets */
+   }
+   @media screen and (min-device-width : 1200px) {
+   /* computadores */
+   }
+   
