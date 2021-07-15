@@ -1,0 +1,12 @@
+.div-pequena > p {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    min-width: 200px;
+    padding: 15px 30px;
+    margin: 10px auto;
+
+}
