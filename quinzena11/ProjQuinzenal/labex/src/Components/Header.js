@@ -14,9 +14,9 @@ const HeaderContainer = styled.div`
     justify-content: space-around;
     align-items: center;
     border-radius: 50px;
-background: #54afbb;
-box-shadow:  24px 24px 47px #2d5d63,
-             -24px -24px 47px #7bffff;
+    background: #54afbb;
+    box-shadow:  24px 24px 47px #2d5d63,
+                -24px -24px 47px #7bffff;
 
 `
 const ButtonContainerHeader = styled.div`
@@ -24,9 +24,8 @@ const ButtonContainerHeader = styled.div`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 200px;
-    border: 1px solid black;
-
+    width: 200px;  
+    padding: 15px;
     
 `
 
@@ -36,7 +35,7 @@ const ButtonContainerHeader = styled.div`
 
 
 
-export default function Header () {
+export default function Header() {
     const history = useHistory()
 
     const goToAppliPage = () => {
@@ -52,12 +51,12 @@ export default function Header () {
     return (
 
         <HeaderContainer>
-         
+
             <div>LOGGOOOO</div>
-        <ButtonContainerHeader>
-            <button onClick={goToAppliPage}>inscrever</button>
-            <button onClick={goToLoginPage}>Admin</button>
-        </ButtonContainerHeader>
+            <ButtonContainerHeader>
+                <button onClick={goToAppliPage}>inscrever</button>
+                <button onClick={goToLoginPage}>Admin</button>
+            </ButtonContainerHeader>
         </HeaderContainer>
     )
 };

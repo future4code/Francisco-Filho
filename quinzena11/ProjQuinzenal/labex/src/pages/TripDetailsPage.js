@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import styled from "styled-components";
+import axios from "axios";
+import { useHistory } from "react-router";
+import { useProtectedPage } from "../Hooks/useProtectedPage";
 
 
 const TripDetailsPageContainer  = styled.div`
@@ -28,6 +31,28 @@ const TripDetailsPageBody = styled.div`
 
 
 export const TripDetailsPage = () => {
+
+    
+    useProtectedPage()
+
+
+    useEffect(() => {
+        const token = localStorage.getItem("token")
+        axios.get('https://us-central1-labenu-apis.cloudfunctions.net/labeX/francisco/trip/EbLG4OmoQVNUx0ufPVrs',{
+            headers: {
+                auth: token
+            }
+        })
+        .then((response) =>{
+            console.log(' certo' , response.data)
+        }).catch((error) =>{
+            console.log('error', error.response)
+        })
+    }, []);
+
+
+
+
     return (
         <TripDetailsPageContainer>
         <Header/>
