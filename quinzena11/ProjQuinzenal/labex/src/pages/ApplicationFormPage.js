@@ -33,6 +33,11 @@ export const ApplicationFormPage = () => {
         <Header/>
         <ApplicationFormPageBody>
            <h1> ApplicationFormPage</h1>
+           <input></input>
+           <input></input>
+           <input></input>
+           <input></input>
+           <button>Enviar</button>
            <button>ver Viagem</button>
 
         </ApplicationFormPageBody>
